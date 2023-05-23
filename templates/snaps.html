@@ -2,24 +2,15 @@
 
 {% block main %}
    <h1>{{ section.title }}</h1>
+   {{ section.content | safe }}
    <div class="photo-grid">
       {% for page in paginator.pages %}
          <div class="photo-cell">
             <a href="{{ page.permalink }}">
-               <img src="{{ page.extra.image }}" alt="{{ page.extra.alt_text }}" />
+               <img src="{{ page.extra.thumb }}" alt="{{ page.title }}" />
             </a>
          </div>
       {% endfor %}
    </div>
 
-   {% if paginator.total_pages > 1 %}
-      <nav>
-         {% if paginator.previous %}
-            <a href="{{ paginator.previous.permalink }}">« Previous</a>
-         {% endif %}
-         {% if paginator.next %}
-            <a href="{{ paginator.next.permalink }}">Next »</a>
-         {% endif %}
-      </nav>
-   {% endif %}
 {% endblock %}

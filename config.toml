@@ -30,3 +30,6 @@ date_format="%d %b, %Y"
 name = "Blog"
 url = "@/blog/_index.md"
 
+[[extra.main_menu]]
+name = "Photo Stream"
+url = "@/snaps/_index.md"
