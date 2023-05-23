@@ -8,5 +8,5 @@ Expect an unpredictable mix of topics as I explore the world of writing, darker 
 
 So, come along on this journey with me and navigate through the twists and turns of mind, let's see where this adventure takes us! But remember - don't feed the gremlins after midnight.
 
-PS: and if you want to reach out, feel free via e-mail radim@laststation.net
+PS: and if you want to reach out, feel free via e-mail <a href="mailto:radim@laststation.net">radim@laststation.net</a>
 

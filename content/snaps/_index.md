@@ -1,5 +1,5 @@
 +++
-title = "Snaps"
+title = "Photo Stream"
 sort_by = "date"
 paginate_by = 24
 template = "snaps.html"
